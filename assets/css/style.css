@@ -9,21 +9,11 @@ body{
 
 #page-wrap{
 	max-width: 1440px;
-	background: red;
 	margin: auto;
 }
 
 .page-section{
 	padding: 120px;
-}
-
-
-.page-section h2{
-	font-size: 72px;
-	font-weight: 700;
-	line-height: 87.77px;
-	text-align: center;
-    margin-bottom: 40px;
 }
 
 .page-section img {
@@ -34,8 +24,65 @@ body{
 * indiviual styles
 **********************************/
 
+/*services section css*/
+
+#services-section{
+	background: #FF6060;
+}
+
+#services-section h2{
+	color: #fff;
+	font-size: 72px;
+	font-weight: 700;
+	line-height: 87.77px;
+	text-align: center;
+    margin-bottom: 90px;
+}
+
+.services{
+	display: flex;
+	column-gap: 75px;
+}
+
+.service{
+	background: #fff;
+	border-radius: 16px;
+	padding: 40px 30px;
+	text-align: center;
+	box-shadow: 0px 7px 15px 0px #00000026;
+}
+
+.service h3{
+	font-size: 36px;
+	font-weight: 500;
+	line-height: 43.88px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.service p{
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 21.94px;
+	text-align: left;
+}
+
+.service img{
+	width: 130px;
+	margin-bottom: 30px;
+}
+
+/*pricing section css*/
 #pricing-section{
 	background: #E9E9E9;
+}
+
+#pricing-section h2{
+	font-size: 72px;
+	font-weight: 700;
+	line-height: 87.77px;
+	text-align: center;
+    margin-bottom: 40px;
 }
 
 .pricing-table{
